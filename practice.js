@@ -85,4 +85,18 @@ function yeller(words) {
     }
     return newArr;
 }
-console.log(yeller(["hello", "world", "getting", "better"]));
+console.log(yeller(["hello", "world", "getting", "better"]))
+
+
+/** Write a function tripler(nums) that takes in an array as an arg.
+The function should return a new array containing three times every number of the original array.**/
+function tripler(nums) {
+    let newArr = [];
+    for (let i = 0; i < nums.length; i++) {
+        let multiple = 3;
+        let testArr = nums[i] * multiple;
+        newArr.push(testArr);
+    }
+    return newArr;
+}
+console.log(tripler([-5, 10, 0, 11]))
