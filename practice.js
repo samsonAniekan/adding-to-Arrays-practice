@@ -48,3 +48,28 @@ function pitPat(max) {
 }
 
 console.log(pitPat(18))
+
+
+/** Write a function tripleSequence that takes in two numbers, start and length.
+The function should return an array representing a sequence that begins with start and is length elements long.
+In the sequence, every element should be 3 times the previous element. Assume that the length is at least 1.**/
+
+function tripleSequence(start, length) {
+    if (length === 0) {
+        return [];
+    }
+    // the sequence is the array that will be returned it begis with start as the base element of the array
+    let sequence = [start];
+
+    // the list of elements in the sequence has to alwaye be less than the "length" in the argument passed into the function
+    while (sequence.length < length) {
+        let lastElem = sequence[sequence.length - 1];
+        // gettig the first element of the sequence by index number and assigning it to lastElem variable
+
+        let nextElem = lastElem * 3;
+        sequence.push(nextElem);
+    }
+    return sequence;
+}
+
+console.log(tripleSequence(3, 5));
