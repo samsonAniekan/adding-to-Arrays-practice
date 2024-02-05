@@ -73,3 +73,16 @@ function tripleSequence(start, length) {
 }
 
 console.log(tripleSequence(3, 5));
+
+/**Write a function yeller(words) that takes in an array of words.
+ The function should return a new array where each element of the original array is yelled**/
+
+function yeller(words) {
+    let newArr = [];
+    for (let i = 0; i < words.length; i++) {
+        let capArr = words[i].toUpperCase();
+        newArr.push(`${capArr}!`);
+    }
+    return newArr;
+}
+console.log(yeller(["hello", "world", "getting", "better"]));
