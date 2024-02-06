@@ -13,3 +13,6 @@ Write a function yeller(words) that takes in an array of words. The function sho
 
 /** Write a function tripler(nums) that takes in an array as an arg.
 The function should return a new array containing three times every number of the original array.**/
+
+Write a function longWords(words) that takes in an array of words.
+ The function should return an array containing only the words that are longer than 5 characters.
