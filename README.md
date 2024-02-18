@@ -16,3 +16,5 @@ The function should return a new array containing three times every number of th
 
 Write a function longWords(words) that takes in an array of words.
  The function should return an array containing only the words that are longer than 5 characters.
+
+ Write a function firstAndLast that takes in an array of numbers and returns the sum of the first and last element if there is an even number of elements in the array. If there is an odd number of elements in the array, then the function should return the difference between the first and last elements of the array.
