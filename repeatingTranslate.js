@@ -69,5 +69,5 @@ function repeatingTranslate(sentence) {
     return newStr.join(" ");
 }
 
-console.log(repeatingTranslate("we like to go running fastt"))
- console.log(repeatingTranslate("he cannot find the trash"));
+console.log(repeatingTranslate("we like to go running fast")) // we likelike to go runninging fastast
+ console.log(repeatingTranslate("he cannot find the trash")); // he cannotot findind thethe trashash
